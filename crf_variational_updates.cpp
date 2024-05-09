@@ -6,6 +6,8 @@
 #include <limits>
 #include <time.h>
 #include <Rcpp.h>
+#include <random>
+
 using namespace Rcpp;
 
 // Update variational probability according to coordinate descent updates for one (sample, dimension) pair
